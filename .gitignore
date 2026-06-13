@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local outputs
+results/
+outputs/
+logs/
+wandb/
+
+# Model checkpoints and large generated artifacts
+checkpoints/
+models/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/

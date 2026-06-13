@@ -1,0 +1,18 @@
+# Optional inference kernels for architecture-specific acceleration.
+#
+# This file is a reference list, not a one-shot requirements file. These
+# packages are sensitive to the PyTorch/CUDA/GPU environment and should be
+# installed manually only when needed.
+
+# Lightning/GDN-style linear-attention dependencies used by the released checkpoints.
+# pip install "flash-linear-attention>=0.3.1" einops
+# pip install lightning_attn==0.0.5 --no-deps
+
+# Common recurrent/SSM kernels required by some Mamba-family Hugging Face model code.
+# pip install causal-conv1d mamba-ssm
+
+# Optional FlashAttention backend for faster Transformer/SWA inference.
+# The SWA-optimized inference path used by our released checkpoints benefits from
+# Dao-AILab/flash-attention#1819, which is currently available from the PR author's branch:
+# https://github.com/Dao-AILab/flash-attention/pull/1819
+# pip install "flash-attn @ git+https://github.com/aoxy/flash-attention.git@feature/attention_with_sink"
