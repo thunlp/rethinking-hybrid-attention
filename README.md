@@ -1,6 +1,6 @@
 # Rethinking the Role of Efficient Attention in Hybrid Architectures
 
-This repository contains the open-source materials for *Rethinking the Role of Efficient Attention in Hybrid Architectures*.
+This repository contains the open-source materials for [Rethinking the Role of Efficient Attention in Hybrid Architectures](https://arxiv.org/abs/2606.15378).
 
 ## Paper Abstract
 
@@ -139,6 +139,6 @@ python compute_weight_distance.py \
 
 | Model | 16K | 32K |
 | --- | --- | --- |
-| Full | [Rethinking-Hybrid-S5-full-16k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-full-16k-5b) | [Rethinking-Hybrid-S5-full-32k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-full-32k-5b) |
-| SWA-128 | [Rethinking-Hybrid-S5-SWA-128-16k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-16k-5b) | [Rethinking-Hybrid-S5-SWA-128-32k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-32k-5b) |
-| SWA-128-NoPE | [Rethinking-Hybrid-S5-SWA-128-Nope-16k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-Nope-16k-5b) | [Rethinking-Hybrid-S5-SWA-128-Nope-32k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-Nope-32k-5b) |
+| Full | [Rethinking-Hybrid-S5-full-16k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-full-100b) | [Rethinking-Hybrid-S5-full-32k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-full-100b-32k-5b) |
+| SWA-128 | [Rethinking-Hybrid-S5-SWA-128-16k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-100b) | [Rethinking-Hybrid-S5-SWA-128-32k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-100b-32k-5b) |
+| SWA-128-NoPE | [Rethinking-Hybrid-S5-SWA-128-Nope-16k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-Nope-100b) | [Rethinking-Hybrid-S5-SWA-128-Nope-32k-5b](https://huggingface.co/EdenQiao/Rethinking-Hybrid-S5-SWA-128-Nope-100b-32k-5b) |
